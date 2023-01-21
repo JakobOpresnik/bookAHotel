@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:id="@+id/main_screen_pretitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/welcome_to"
+        android:textColor="#50000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_screen_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/main_screen_title"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_pretitle" />
+
+    <ImageView
+        android:id="@+id/main_screen_logo"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_title"
+        app:srcCompat="@drawable/main_screen_logo" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/blue_primary"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/find_nearby_hotels"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/main_screen_location_logo"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_logo" />
+
+    <Button
+        android:id="@+id/book_hotel_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/blue_primary"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/book_a_hotel"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/main_screen_booking_logo"
+        app:layout_constraintTop_toBottomOf="@+id/map_button" />
+
+    <Button
+        android:id="@+id/reservations_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/blue_primary"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/view_past_reservations"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/main_screen_list_logo"
+        app:layout_constraintTop_toBottomOf="@+id/book_hotel_button" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/blue_primary"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/main_screen_settings"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/main_screen_settings_logo"
+        app:layout_constraintTop_toBottomOf="@+id/reservations_button" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="@color/blue_primary"
+        android:fontFamily="@font/montserrat"
+        android:text="@string/main_screen_about_app"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/main_screen_info_logo"
+        app:layout_constraintTop_toBottomOf="@+id/settings_button" />
+
+    <ImageView
+        android:id="@+id/main_screen_location_logo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_logo"
+        app:srcCompat="@drawable/location_icon" />
+
+    <ImageView
+        android:id="@+id/main_screen_booking_logo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_location_logo"
+        app:srcCompat="@drawable/booking" />
+
+    <ImageView
+        android:id="@+id/main_screen_list_logo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_booking_logo"
+        app:srcCompat="@drawable/list" />
+
+    <ImageView
+        android:id="@+id/main_screen_settings_logo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_list_logo"
+        app:srcCompat="@drawable/settings" />
+
+    <ImageView
+        android:id="@+id/main_screen_info_logo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_screen_settings_logo"
+        app:srcCompat="@drawable/info" />
+
+    <ImageView
+        android:id="@+id/exit_button"
+        android:layout_width="53dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about_button"
+        app:srcCompat="@drawable/exit" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

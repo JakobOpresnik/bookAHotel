@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">ReserveHotel</string>
+    <string name="main_screen_title">BOOK A HOTEL!</string>
+    <string name="welcome_to">Welcome to</string>
+    <string name="find_nearby_hotels">FIND NEARBY HOTELS</string>
+    <string name="main_screen_settings">SETTINGS</string>
+    <string name="main_screen_about_app">ABOUT APP</string>
+    <string name="view_past_reservations">RESERVATIONS</string>
+    <string name="book_a_hotel">BOOK A HOTEL</string>
+    <string name="input_screen_title">BOOK A HOTEL</string>
+    <string name="number_of_people">NUMBER OF GUESTS</string>
+    <string name="input_instructions">Please pick a hotel, select the date\nand time of your arrival and departure\nand the number of people using\nthe options below:</string>
+    <string name="arrival_button_text">DATE OF ARRIVAL</string>
+    <string name="departure_button_text">DATE OF DEPARTURE</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="reset">RESET</string>
+    <string name="time_of_arrival">TIME OF ARRIVAL</string>
+    <string name="time_of_departure">TIME OF DEPARTURE</string>
+
+    <string-array name="hotels_array">
+        <item>Hotel City Maribor</item>
+        <item>Hotel Orel</item>
+        <item>S Hotel</item>
+        <item>Garden Rooms</item>
+        <item>Hotel Lent</item>
+        <item>Garni Hotel</item>
+        <item>Hotel Piramida</item>
+        <item>Roomers</item>
+        <item>B&amp;B Hotel Maribor</item>
+        <item>Hotel Tabor</item>
+    </string-array>
+
+    <string-array name="hotel_city_maribor_array">
+        <item>Hotel City Maribor</item>
+    </string-array>
+
+    <string-array name="hotel_orel_array">
+        <item>Hotel Orel</item>
+    </string-array>
+
+    <string-array name="s_hotel_array">
+        <item>S Hotel</item>
+    </string-array>
+
+    <string-array name="garden_rooms_array">
+        <item>Garden Rooms</item>
+    </string-array>
+
+    <string-array name="hotel_lent_array">
+        <item>Hotel Lent</item>
+    </string-array>
+
+    <string-array name="garni_hotel_array">
+        <item>Garni Hotel</item>
+    </string-array>
+
+    <string-array name="hotel_piramida_array">
+        <item>Hotel Piramida</item>
+    </string-array>
+
+    <string-array name="roomers_array">
+        <item>Roomers</item>
+    </string-array>
+
+    <string-array name="B_B_hotel_array">
+        <item>B&amp;B Hotel Maribor</item>
+    </string-array>
+
+    <string-array name="tabor_hotel_array">
+        <item>Hotel Tabor</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_title">SETTINGS</string>
+    <string name="dark_mode">DARK MODE</string>
+    <string name="about_app">ABOUT APP</string>
+    <string name="app_for_making_hotel_reservations_n_ndate_of_creation_8_1_2023_ndeveloped_by_jakob_opre_nik_n">App for making Hotel reservations\n\nDate of creation: 8. 1. 2023\nDeveloped by: Jakob Oprešnik\n</string>
+    <string name="your_past_nreservations">YOUR PAST\nRESERVATIONS</string>
+    <string name="filter_by_hotel_rating">Filter by hotel rating</string>
+</resources>
